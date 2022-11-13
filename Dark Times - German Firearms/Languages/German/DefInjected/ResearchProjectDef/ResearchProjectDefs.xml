@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<MakeSimpleGermanFirearms.label>Deutsche Waffen Klasse 1</MakeSimpleGermanFirearms.label>
+<MakeSimpleGermanFirearms.description>Die Möglichkeit einfache, deutsche Schusswaffen aus dem zweiten Weltkrieg herzustellen wie zum Beispiel Karabiner 98k, MG 08, Mauser C96 oder Luger P08.</MakeSimpleGermanFirearms.description>
+
+<MakeAdvancedGermanFirearms.label>Deutsche Waffen Klasse 2</MakeAdvancedGermanFirearms.label>
+<MakeAdvancedGermanFirearms.description>Die Möglichkeit verbesserte, deutsche Schusswaffen aus dem zweiten Weltkrieg herzustellen wie zum Beispiel Karabiner MP40, MG 18, Gewehr 41 oder Panzerbüchse 38.</MakeAdvancedGermanFirearms.description>
+
+<MakeModernGermanFirearms.label>Deutsche Waffen Klasse 3</MakeModernGermanFirearms.label>
+<MakeModernGermanFirearms.description>Die Möglichkeit, moderne deutsche Schusswaffen aus dem Zweiten Weltkrieg wie das STG 44, Gewehr 43, FG 42 oder MG 42 herzustellen.</MakeModernGermanFirearms.description>
+
+</LanguageData>

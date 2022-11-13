@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!--======= Firearms =======-->
+	<!--Simple Firearms-->
+	<ResearchProjectDef>
+		<defName>MakeSimpleGermanFirearms</defName>
+		<label>German Firearms Tier I</label>
+		<description>The possibility of producing simple German firearms from World War II such as Karabiner 98k, MG 08, Mauser C96 or Luger P08.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+		    <li>Smithing</li>
+			<li>Gunsmithing</li>
+		</prerequisites>
+		<tab>GermanTechnology</tab>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.30</researchViewY>
+	</ResearchProjectDef>
+	
+	<!--Advanced Firearms-->
+	<ResearchProjectDef>
+		<defName>MakeAdvancedGermanFirearms</defName>
+		<label>German Firearms Tier II</label>
+		<description>The possibility of producing advanced German firearms from World War II such as Karabiner MP40, MG 34, or Gewehr 41.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+			<li>Gunsmithing</li>
+			<li>MakeSimpleGermanFirearms</li>
+			<li>BlowbackOperation</li>
+		</prerequisites>
+		<tab>GermanTechnology</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.30</researchViewY>
+	</ResearchProjectDef>
+	
+	<!--Modern Firearms-->
+	<ResearchProjectDef>
+		<defName>MakeModernGermanFirearms</defName>
+		<label>German Firearms Tier III</label>
+		<description>The ability to produce modern German firearms from World War II such as the STG 44, Gewehr 43, FG 42 or MG 42.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+			<li>Gunsmithing</li>
+			<li>MakeSimpleGermanFirearms</li>
+			<li>BlowbackOperation</li>
+			<li>MakeAdvancedGermanFirearms</li>
+			<li>GasOperation</li>
+		</prerequisites>
+		<tab>GermanTechnology</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.30</researchViewY>
+	</ResearchProjectDef>
+
+	<!--======= Explosives =======-->
+	<!--Simple Explosives weapons-->
+	<ResearchProjectDef>
+		<defName>MakeSimpleGermanExplosives</defName>
+		<label>German Explosives Tier I</label>
+		<description>The possibility of producing simple German Anti-tank weapons from World War II such as M1924 Stielhandgranate, Blendkörper 1H, Granatbüchse 39 and Panzerbüchse 39.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+			<li>Machining</li>
+			<li>MakeSimpleGermanFirearms</li>
+			<li>BiofuelRefining</li>
+		</prerequisites>
+		<tab>GermanTechnology</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+	</ResearchProjectDef>
+
+	<!--Advanced Explosives weapons-->
+	<ResearchProjectDef>
+		<defName>MakeAdvancedGermanExplosives</defName>
+		<label>German Explosives Tier II</label>
+		<description>The possibility of producing advanced German Anti-tank weapons from World War II such as M1939 Eiergranate, Blendkörper 2H, Panzerfaust 30 and Panzerfaust 60.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Smithing</li>
+			<li>Machining</li>
+			<li>Gunsmithing</li>
+			<li>Mortars</li>
+			<li>MakeSimpleGermanExplosives</li>
+			<li>MakeAdvancedGermanFirearms</li>
+		</prerequisites>
+		<tab>GermanTechnology</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+	</ResearchProjectDef>
+
+	<!--Modern Explosives weapons-->
+	<ResearchProjectDef>
+		<defName>MakeModernGermanExplosives</defName>
+		<label>German Explosives Tier III</label>
+		<description>The possibility of producing modern German Anti-tank weapons from World War II such M1943 Stielhandgranate, Hafthohlladung and Raketenpanzerbüchse 54.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>MakeAdvancedGermanExplosives</li>
+			<li>MakeModernGermanFirearms</li>
+		</prerequisites>
+		<tab>GermanTechnology</tab>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+	</ResearchProjectDef>
+</Defs>

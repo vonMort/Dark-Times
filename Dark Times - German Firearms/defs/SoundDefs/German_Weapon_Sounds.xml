@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!--Simple Weapon Sounds-->
+	<SoundDef>
+		<defName>Kar98_shot</defName>  
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Kar98_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.70111</min>        
+					<max>35.30627</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9976015</min>
+					<max>1.1769372</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+  </SoundDef>
+	
+	<SoundDef>
+		<defName>Mauser_C96_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Mauser_C96_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.70111</min>
+					<max>35.30627</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9976015</min>
+					<max>1.1769372</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>Luger_P08_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Luger_P08_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.70111</min>
+					<max>35.30627</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9976015</min>
+					<max>1.1769372</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>MG_0815_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/MG_0815_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.70111</min>
+					<max>35.30627</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9976015</min>
+					<max>1.1769372</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	"<!--Advanced Weapon Sounds-->
+	<SoundDef>
+		<defName>MP40_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/MP40_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.70111</min>
+					<max>35.30627</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9076015</min>
+					<max>1.1769372</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	"<!--Modern Weapon Sounds-->
+	<SoundDef>
+		<defName>STG_44_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/STG_44_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.70111</min>
+					<max>35.30627</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9076015</min>
+					<max>1.1769372</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+</Defs>

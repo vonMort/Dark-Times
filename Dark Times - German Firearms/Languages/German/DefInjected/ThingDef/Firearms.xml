@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- ========== Bulles ========== -->
+	<!--translations for the simple bullets-->
+	<Bullet_Karabiner_98k.label>Karabiner 98k Schuss</Bullet_Karabiner_98k.label>
+	<Bullet_Mauser_C96s.label>Mauser C96 Schuss</Bullet_Mauser_C96s.label>
+	<Bullet_Luger_P08s.label>Luger P08 Schuss</Bullet_Luger_P08s.label>
+	<Bullet_MG_0815s.label>MG 08/15 Schuss</Bullet_MG_0815s.label>
+	
+	<!--translations for the advanced bullets-->
+	<MP_40_Bullet.label>MP 40 Schuss</MP_40_Bullet.label>
+	
+	<!--translations for the modern bullets-->
+	<STG_44_Bullet.label>STG 44 Schuss</STG_44_Bullet.label>
+
+	<!-- ========== Weapons ========== -->
+	<!--translations for the simple firearms-->
+	<Gun_Karabiner_98k.label>Karabiner 98k</Gun_Karabiner_98k.label>
+	<Gun_Karabiner_98k.description>Der Karabiner 98 kurz, oft als Karabiner 98k oder K98k abgekürzt und auch fälschlicherweise als K98 bezeichnet, ist ein Repetiergewehr für die 7,92 × 57 mm Mauser-Patrone, das am 21. Juni 1935 vom deutschen Militär als Ordonnanzgewehr eingeführt wurde.</Gun_Karabiner_98k.description>
+	<Gun_Mauser_C96s.label>Mauser C96</Gun_Mauser_C96s.label>
+	<Gun_Mauser_C96s.description>Die Mauser C96 ist eine halbautomatische Pistole, die ursprünglich vom deutschen Waffenhersteller Mauser von 1896 bis 1937 hergestellt wurde. Nicht lizenzierte Kopien der Pistole wurden in der ersten Hälfte des 20. Jahrhunderts auch in Spanien und China hergestellt.</Gun_Mauser_C96s.description>
+	<Gun_Luger_P08s.label>Luger P08</Gun_Luger_P08s.label>
+	<Gun_Luger_P08s.description>Die Pistole Parabellum-oder Parabellum-Pistole, allgemein bekannt als Luger oder Luger P08 ist eine halbautomatische Pistole mit Kipphebelverschluss und Rückstoßantrieb. Die Luger wurde von 1898 bis 1949 in mehreren Modellen und von mehreren Nationen hergestellt.</Gun_Luger_P08s.description>
+	<Gun_MG_0815s.label>MG 08/15</Gun_MG_0815s.label>
+	<Gun_MG_0815s.description>Das MG 08/15 war der "eher fehlgeleitete Versuch", aus dem Standard-MG 08 ein leichteres und damit tragbareres leichtes Maschinengewehr zu machen. Es wurde hergestellt, indem die oberen hinteren und unteren vorderen Ecken des rechtwinkligen Gehäuses und des Verschlusses des ursprünglichen MG 08 "verkleinert" wurden und der Durchmesser des Kühlmantels auf 92,5 mm (3,64 Zoll) reduziert wurde. Es wurde 1915 von einem Team von Waffenkonstrukteuren unter der Leitung eines Oberst, Friedrich von Merkatz, als Prototyp getestet; daraus wurde das MG 08/15.</Gun_MG_0815s.description>
+	
+	<!--translations for the advanced firearms-->
+	<Gun_MP_40s.label>MP 40</Gun_MP_40s.label>
+	<Gun_MP_40s.description>Die MP 40, eine Weiterentwicklung der MP 38 aus dem Jahr 1938, wurde seit Anfang 1940 hergestellt und war die Standard-Maschinenpistole des deutschen Militärs im Zweiten Weltkrieg. Wegen der Beteiligung Hugo Schmeissers an der Produktionsfirma und dem Aufdruck seines Namens auf den Magazinen wurde die MP 40 vor allem beim englischsprachigen Gegner als die „Schmeisser“ bekannt.</Gun_MP_40s.description>
+
+	<!--translations for the modern firearms-->
+	<Gun_STG_44s.label>STG 44</Gun_STG_44s.label>
+	<Gun_STG_44s.description>Das StG 44 (Abkürzung für Sturmgewehr 44) ist ein deutsches Sturmgewehr, das während des Zweiten Weltkriegs von Hugo Schmeisser entwickelt wurde. Es ist auch unter seinen frühen Bezeichnungen MP 43 und MP 44 (Maschinenpistole 43 und 44) bekannt. Das StG 44 war eine Verbesserung einer früheren Konstruktion, des Maschinenkarabiners 42(H).</Gun_STG_44s.description>
+	
+</LanguageData>
