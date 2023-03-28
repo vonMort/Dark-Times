@@ -10,9 +10,14 @@
 	
 	<!--translations for the advanced bullets-->
 	<MP_40_Bullet.label>MP 40 Schuss</MP_40_Bullet.label>
+	<MG_34_Bullet.label>MG 34 Schuss</MG_34_Bullet.label>
+	<Gewehr_41_Bullet.label>Gewehr 41 Schuss</Gewehr_41_Bullet.label>
 	
 	<!--translations for the modern bullets-->
 	<STG_44_Bullet.label>STG 44 Schuss</STG_44_Bullet.label>
+	<Gewehr_43_Bullet.label>Gewehr 43 Schuss</Gewehr_43_Bullet.label>
+	<MG_42_Bullet.label>MG 42 Schuss</MG_42_Bullet.label>
+	<FG_42_Bullet.label>FG 42 Schuss</FG_42_Bullet.label>
 
 	<!-- ========== Weapons ========== -->
 	<!--translations for the simple firearms-->
@@ -30,9 +35,17 @@
 	<MP_40_Gun.description>Die MP 40, eine Weiterentwicklung der MP 38 aus dem Jahr 1938, wurde seit Anfang 1940 hergestellt und war die Standard-Maschinenpistole des deutschen Militärs im Zweiten Weltkrieg. Wegen der Beteiligung Hugo Schmeissers an der Produktionsfirma und dem Aufdruck seines Namens auf den Magazinen wurde die MP 40 vor allem beim englischsprachigen Gegner als die „Schmeisser“ bekannt.</MP_40_Gun.description>
 	<MG_34_Gun.label>MG 34</MG_34_Gun.label>
 	<MG_34_Gun.description>Das MG 34 (abgekürzt: Maschinengewehr 34) ist ein deutsches rückstoßbetriebenes luftgekühltes Mehrzweck-Maschinengewehr, das erstmals 1929 getestet, 1934 eingeführt und 1936 an die Einheiten ausgegeben wurde. Es führte ein völlig neues Konzept der automatischen Feuerkraft ein - das Einheitsmaschinengewehr - und gilt allgemein als das erste Mehrzweck-Maschinengewehr der Welt (GPMG). Sowohl das MG 34 als auch das MG 42 wurden von den alliierten Truppen fälschlicherweise "Spandau" genannt, ein Überbleibsel des Spitznamens für das MG 08 aus dem Ersten Weltkrieg, das im Arsenal Spandau hergestellt wurde.</MG_34_Gun.description>
-	
+	<Gewehr_41_Gun.label>Gewehr 41</Gewehr_41_Gun.label>
+	<Gewehr_41_Gun.description>Das Gewehr 41 ist ein halbautomatisches Gewehr, das von Mauser während des Zweiten Weltkriegs entwickelt wurde. Es wurde 1941 eingeführt und bis zum Ende des Krieges produziert. Es sollte das Karabiner 98k ersetzen, wurde aber aufgrund von Produktionsschwierigkeiten und Zuverlässigkeitsproblemen nur begrenzt eingesetzt.</Gewehr_41_Gun.description>
+
 	<!--translations for the modern firearms-->
 	<STG_44_Gun.label>STG 44</STG_44_Gun.label>
 	<STG_44_Gun.description>Das StG 44 (Abkürzung für Sturmgewehr 44) ist ein deutsches Sturmgewehr, das während des Zweiten Weltkriegs von Hugo Schmeisser entwickelt wurde. Es ist auch unter seinen frühen Bezeichnungen MP 43 und MP 44 (Maschinenpistole 43 und 44) bekannt. Das StG 44 war eine Verbesserung einer früheren Konstruktion, des Maschinenkarabiners 42(H).</STG_44_Gun.description>
+	<Gewehr_43_Gun.label>Gewehr 43</Gewehr_43_Gun.label>
+	<Gewehr_43_Gun.description>Das Gewehr 43 (abgekürzt: G43) war ein deutsches Sturmgewehr, das während des Zweiten Weltkriegs von Hugo Schmeisser entwickelt wurde. Es war das erste Sturmgewehr, das in Serie hergestellt wurde. Es wurde von 1941 bis 1943 hergestellt und wurde von der Wehrmacht und der Waffen-SS eingesetzt.</Gewehr_43_Gun.description>
+	<MG_42_Gun.label>MG 42</MG_42_Gun.label>
+	<MG_42_Gun.description>Das MG 42 ist ein deutsches Maschinengewehr, das während des Zweiten Weltkriegs entwickelt wurde. Es gilt als eine der bedeutendsten und revolutionärsten Feuerwaffen der Geschichte, da es eine hohe Feuerrate und Zuverlässigkeit im Kampf aufweist. Das MG 42 wurde von der deutschen Armee eingesetzt und war in der Spätphase des Krieges eine der wichtigsten Infanteriewaffen im deutschen Dienst. Sein unverwechselbarer Klang brachte ihm den Spitznamen "Hitlers Kreissäge" ein. Obwohl es in der Nachkriegszeit durch das MG 3 ersetzt wurde, ist das MG 42 auch heute noch eine beliebte und kultige Waffe.</MG_42_Gun.description>
+	<FG_42_Gun.label>FG 42</FG_42_Gun.label>
+	<FG_42_Gun.description>Das FG 42 (Abkürzung für Fallschirmjägergewehr 42) ist ein während des Zweiten Weltkriegs entwickeltes deutsches Selektivfeuergewehr. Es wurde hauptsächlich von deutschen Fallschirmjägern verwendet.</FG_42_Gun.description>
 	
 </LanguageData>

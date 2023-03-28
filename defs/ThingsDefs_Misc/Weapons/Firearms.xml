@@ -855,7 +855,7 @@
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<recipeMaker>
-			<researchPrerequisite>MakeAdvancedGermanFirearms</researchPrerequisite>
+			<researchPrerequisite>MakeModernGermanFirearms</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
