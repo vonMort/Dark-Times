@@ -1,24 +1,23 @@
 
-# Dark Times
+# Dark Times - German Technology
 
-Dark Times is a mod package for the game "Rimworld" based on the technologies and weapons from World War II. The package includes a variety of weapons, clothing items, custom-created sounds, and graphics.
+Dark Times - German Technology is a mod package for the game "Rimworld" based on the technologies and weapons from World War II. The package includes a variety of weapons, clothing items, custom-created sounds, and graphics.
 ## Installation
 
 #### Via Steam Workshop
 
 + Open "Rimworld" and go to the "Mods" menu.
-+ Search for "Dark Times" and select it from the list.
++ Search for "Dark Times - German Technology" and select it from the list.
 + Click the "Subscribe" button to download and install the mod.
 
 #### Via Github
 
-+ Go to the "Dark-Times" repository on Github: https://github.com/vonMort/Dark-Times
++ Go to the "Dark-Times-German-Technology" repository on Github: https://github.com/vonMort/Dark-Times-German-Technology
 + Click the green "Code" button and select "Download ZIP" to download the mod package.
 + Extract the downloaded ZIP file to your "Rimworld/Mods" folder.
 + Make sure the mod is enabled in the "Mods" menu of "Rimworld".
 ## Currently in the mod package
-### German Technology
-#### Dark Times - German Firearms
+### German Firearms
 
 The first research branch in this mod package is "Dark Times". These include various German firearms that are simulated in real-time, offering an authentic gameplay experience.
 
@@ -28,7 +27,7 @@ The first research branch in this mod package is "Dark Times". These include var
 - Custom sounds
 - Custom graphics
 
-#### Dark Times - German Explosives
+### German Explosives
 
 Currently in development
 

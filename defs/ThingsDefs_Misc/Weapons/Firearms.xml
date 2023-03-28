@@ -733,6 +733,9 @@
 			</li>
 			<li>
 				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
 				</capacities>
 				<power>6</power>
 				<cooldownTime>2</cooldownTime>
