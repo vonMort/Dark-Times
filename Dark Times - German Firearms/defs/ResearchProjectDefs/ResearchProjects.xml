@@ -13,7 +13,7 @@
 		    <li>Smithing</li>
 			<li>Gunsmithing</li>
 		</prerequisites>
-		<tab>GermanTechnology</tab>
+		<tab>DarkTimes</tab>
 		<researchViewX>0.00</researchViewX>
 		<researchViewY>0.30</researchViewY>
 	</ResearchProjectDef>
@@ -22,7 +22,7 @@
 	<ResearchProjectDef>
 		<defName>MakeAdvancedGermanFirearms</defName>
 		<label>German Firearms Tier II</label>
-		<description>The possibility of producing advanced German firearms from World War II such as Karabiner MP40, MG 34, or Gewehr 41.</description>
+		<description>The possibility of producing advanced German firearms from World War II such as MP40, MG 34, or Gewehr 41.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
@@ -31,7 +31,7 @@
 			<li>MakeSimpleGermanFirearms</li>
 			<li>BlowbackOperation</li>
 		</prerequisites>
-		<tab>GermanTechnology</tab>
+		<tab>DarkTimes</tab>
 		<researchViewX>1.00</researchViewX>
 		<researchViewY>0.30</researchViewY>
 	</ResearchProjectDef>
@@ -51,7 +51,7 @@
 			<li>MakeAdvancedGermanFirearms</li>
 			<li>GasOperation</li>
 		</prerequisites>
-		<tab>GermanTechnology</tab>
+		<tab>DarkTimes</tab>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>0.30</researchViewY>
 	</ResearchProjectDef>
@@ -70,7 +70,7 @@
 			<li>MakeSimpleGermanFirearms</li>
 			<li>BiofuelRefining</li>
 		</prerequisites>
-		<tab>GermanTechnology</tab>
+		<tab>DarkTimes</tab>
 		<researchViewX>1.00</researchViewX>
 		<researchViewY>1.00</researchViewY>
 	</ResearchProjectDef>
@@ -90,7 +90,7 @@
 			<li>MakeSimpleGermanExplosives</li>
 			<li>MakeAdvancedGermanFirearms</li>
 		</prerequisites>
-		<tab>GermanTechnology</tab>
+		<tab>DarkTimes</tab>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>1.00</researchViewY>
 	</ResearchProjectDef>
@@ -106,7 +106,7 @@
 			<li>MakeAdvancedGermanExplosives</li>
 			<li>MakeModernGermanFirearms</li>
 		</prerequisites>
-		<tab>GermanTechnology</tab>
+		<tab>DarkTimes</tab>
 		<researchViewX>3.00</researchViewX>
 		<researchViewY>1.00</researchViewY>
 	</ResearchProjectDef>

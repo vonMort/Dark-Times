@@ -123,6 +123,30 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef>
+		<defName>MG_34_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/MG_34_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>30.70111</min>
+					<max>35.30627</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9076015</min>
+					<max>1.1769372</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 	"<!--Modern Weapon Sounds-->
 	<SoundDef>
 		<defName>STG_44_shot</defName>
@@ -134,6 +158,30 @@
 				<grains>
 					<li Class="AudioGrain_Clip">
 						<clipPath>Things/STG_44_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>15.70111</min>
+					<max>35.30627</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9076015</min>
+					<max>1.1769372</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>MG_42_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/MG_42_shot</clipPath>
 					</li>
 				</grains>
 				<volumeRange>

@@ -48,7 +48,7 @@
 	<!-- ========== Bulles ========== -->
 	<!--Simple Guns Bullets-->
 	<ThingDef ParentName="BaseGermanBullet">
-		<defName>Bullet_Karabiner_98k</defName>
+		<defName>Karabiner_98k_Bullet</defName>
 		<label>Karabiner 98k bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
@@ -63,7 +63,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseGermanBullet">
-		<defName>Bullet_Mauser_C96s</defName>
+		<defName>Mauser_C96_Bullet</defName>
 		<label>Mauser C96 bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
@@ -71,14 +71,14 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>2</damageAmountBase>
+			<damageAmountBase>12</damageAmountBase>
 			<stoppingPower>0.9</stoppingPower>
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseGermanBullet">
-		<defName>Bullet_Luger_P08s</defName>
+		<defName>Luger_P08_Bullet</defName>
 		<label>Luger P08 bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
@@ -86,14 +86,14 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>2</damageAmountBase>
+			<damageAmountBase>12</damageAmountBase>
 			<stoppingPower>0.9</stoppingPower>
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseGermanBullet">
-		<defName>Bullet_MG_0815s</defName>
+		<defName>MG_0815_Bullet</defName>
 		<label>MG 08/15 bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
@@ -101,7 +101,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>9</damageAmountBase>
 			<stoppingPower>2.5</stoppingPower>
 			<speed>45</speed>
 		</projectile>
@@ -117,7 +117,22 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>8</damageAmountBase>
+			<stoppingPower>0.9</stoppingPower>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGermanBullet">
+		<defName>MG_34_Bullet</defName>
+		<label>MG 34 bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>9</damageAmountBase>
 			<stoppingPower>0.9</stoppingPower>
 			<speed>55</speed>
 		</projectile>
@@ -133,8 +148,23 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>7</damageAmountBase>
+			<damageAmountBase>10</damageAmountBase>
 			<stoppingPower>1.9</stoppingPower>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGermanBullet">
+		<defName>MG_42_Bullet</defName>
+		<label>MG 42 bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>9</damageAmountBase>
+			<stoppingPower>0.9</stoppingPower>
 			<speed>65</speed>
 		</projectile>
 	</ThingDef>
@@ -142,7 +172,7 @@
 	<!-- ========== Weapons ========== -->
 	<!--Simple Guns-->
 	<ThingDef ParentName="BaseGermanWeaponRanged">
-		<defName>Gun_Karabiner_98k</defName>
+		<defName>Karabiner_98k_Gun</defName>
 		<label>Karabiner 98k</label>
 		<description>The Karabiner 98 kurz, often abbreviated Karabiner 98k, Kar98k or K98k and also sometimes incorrectly referred to as a K98, is a bolt-action rifle chambered for the 7.92×57mm Mauser cartridge. It was adopted on 21 June 1935 as the standard service rifle by the german military.</description>
 		<graphicData>
@@ -157,8 +187,8 @@
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
 			<Mass>3.9</Mass>
-			<AccuracyTouch>0.65</AccuracyTouch>
-			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyTouch>0.15</AccuracyTouch>
+			<AccuracyShort>0.35</AccuracyShort>
 			<AccuracyMedium>0.90</AccuracyMedium>
 			<AccuracyLong>0.80</AccuracyLong>
 			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
@@ -185,7 +215,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_Karabiner_98k</defaultProjectile>
+				<defaultProjectile>Karabiner_98k_Bullet</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<range>35.0</range>
 				<soundCast>Kar98_shot</soundCast>
@@ -215,7 +245,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseGermanWeaponRanged">
-		<defName>Gun_Mauser_C96s</defName>
+		<defName>Mauser_C96_Gun</defName>
 		<label>Mauser C96</label>
 		<description>The Mauser C96 is a semi-automatic pistol that was originally produced by German arms manufacturer Mauser from 1896 to 1937. Unlicensed copies of the gun were also manufactured in Spain and China in the first half of the 20th century.</description>
 		<graphicData>
@@ -258,7 +288,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_Mauser_C96s</defaultProjectile>
+				<defaultProjectile>Mauser_C96_Bullet</defaultProjectile>
 				<warmupTime>0.5</warmupTime>
 				<range>15.0</range>
 				<soundCast>Mauser_C96_shot</soundCast>
@@ -288,7 +318,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseGermanWeaponRanged">
-		<defName>Gun_Luger_P08s</defName>
+		<defName>Luger_P08_Gun</defName>
 		<label>Luger P08</label>
 		<description>The Pistole Parabellum—or Parabellum-Pistole, commonly known as just Luger or Luger P08 is a toggle-locked recoil-operated semi-automatic pistol. The Luger was produced in several models and by several nations from 1898 to 1949.</description>
 		<graphicData>
@@ -330,7 +360,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_Luger_P08s</defaultProjectile>
+				<defaultProjectile>Luger_P08_Bullet</defaultProjectile>
 				<warmupTime>0.5</warmupTime>
 				<range>15.0</range>
 				<soundCast>Luger_P08_shot</soundCast>
@@ -360,7 +390,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseGermanWeaponRanged">
-		<defName>Gun_MG_0815s</defName>
+		<defName>MG_0815_Gun</defName>
 		<label>MG 08/15</label>
 		<description>The MG 08/15 was the "rather misguided attempt" at a lightened and thus more portable light machine gun from the standard MG 08, produced by "stepping-down" the upper rear and lower forward corners of the original MG 08's rectangular-outline receiver and breech assembly, and reducing the cooling jacket's diameter to 92.5 mm (3.64 in). It was tested as a prototype in 1915 by a team of weapon designers under the direction of an Oberst, Friedrich von Merkatz; this became the MG 08/15.</description>
 		<graphicData>
@@ -405,11 +435,11 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>Bullet_MG_0815s</defaultProjectile>
+				<defaultProjectile>MG_0815_Bullet</defaultProjectile>
 				<warmupTime>2.5</warmupTime>
 				<range>30.0</range>
-				<burstShotCount>60</burstShotCount>
-				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<burstShotCount>120</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<soundCast>MG_0815_shot</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>15</muzzleFlashScale>
@@ -438,7 +468,7 @@
 	
 	<!--Advanced Guns-->
 	<ThingDef ParentName="BaseGermanWeaponRanged">
-		<defName>Gun_MP_40s</defName>
+		<defName>MP_40_Gun</defName>
 		<label>MP 40</label>
 		<description>The MP 40, a further development of the MP 38 from 1938, was produced from the beginning of 1940 and was the standard submachine gun of the German military during World War II. Because of Hugo Schmeisser's involvement in the production company and the imprint of his name on the magazines, the MP 40 became known as the "Schmeisser", especially to the English-speaking enemy.</description>
 		<graphicData>
@@ -485,9 +515,87 @@
 				<warmupTime>0.6</warmupTime>
 				<range>20.0</range>
 				<burstShotCount>3</burstShotCount>
-				<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<soundCast>MP40_shot</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>15</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGermanWeaponRanged">
+		<defName>MG_34_Gun</defName>
+		<label>MG 34</label>
+		<description>The MG 34 (shortened from German: Maschinengewehr 34, or "machine gun 34") is a German recoil-operated air-cooled general-purpose machine gun, first tested in 1929, introduced in 1934, and issued to units in 1936. It introduced an entirely new concept in automatic firepower – the Einheitsmaschinengewehr (Universal machine gun) – and is generally considered the world's first general-purpose machine gun (GPMG). Both the MG 34 and MG 42 were erroneously nicknamed "Spandau" by Allied troops, a carryover from the World War I nickname for the MG 08, which was produced at the Spandau Arsenal.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/MG_34</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>26.5</Mass>
+			<AccuracyTouch>0.10</AccuracyTouch>
+			<AccuracyShort>0.25</AccuracyShort>
+			<AccuracyMedium>0.55</AccuracyMedium>
+			<AccuracyLong>0.30</AccuracyLong>
+			<RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>SimpleGun</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.5</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<WoodLog>5</WoodLog>
+			<Steel>150</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>MakeAdvancedGermanFirearms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>MG_34_Bullet</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>30.0</range>
+				<burstShotCount>25</burstShotCount>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<soundCast>MG_34_shot</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>15</muzzleFlashScale>
 			</li>
 		</verbs>
@@ -514,7 +622,7 @@
 	
 	<!--Advanced Guns-->
 	<ThingDef ParentName="BaseGermanWeaponRanged">
-		<defName>Gun_STG_44s</defName>
+		<defName>STG_44_Gun</defName>
 		<label>STG 44</label>
 		<description>The StG 44 (abbreviation of Sturmgewehr 44, "assault rifle 44") is a German assault rifle developed during World War II by Hugo Schmeisser. It is also known by its early designations as the MP 43 and MP 44 (Maschinenpistole 43 and 44). The StG 44 was an improvement of an earlier design, the Maschinenkarabiner 42(H).</description>
 		<graphicData>
@@ -560,9 +668,87 @@
 				<warmupTime>1.0</warmupTime>
 				<range>30.0</range>
 				<burstShotCount>6</burstShotCount>
-				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<soundCast>STG_44_shot</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>15</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGermanWeaponRanged">
+		<defName>MG_42_Gun</defName>
+		<label>MG 42</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/MG_42</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>26.5</Mass>
+			<AccuracyTouch>0.20</AccuracyTouch>
+			<AccuracyShort>0.35</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>SimpleGun</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.5</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<WoodLog>5</WoodLog>
+			<Steel>200</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>MakeAdvancedGermanFirearms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>MG_42_Bullet</defaultProjectile>
+				<warmupTime>1.5</warmupTime>
+				<range>35.0</range>
+				<burstShotCount>50</burstShotCount>
+				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<soundCast>MG_42_shot</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>15</muzzleFlashScale>
 			</li>
 		</verbs>
