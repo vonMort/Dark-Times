@@ -692,7 +692,6 @@
 		</weaponTags>
 		<weaponClasses>
 			<li>Ranged</li>
-			<li>RangedSniper</li>
 		</weaponClasses>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
