@@ -7,7 +7,7 @@ Dark Times is a mod package for the game "Rimworld" based on the technologies an
 #### Via Steam Workshop
 
 + Open "Rimworld" and go to the "Mods" menu.
-+ Search for "Dark-Times" and select it from the list.
++ Search for "Dark Times" and select it from the list.
 + Click the "Subscribe" button to download and install the mod.
 
 #### Via Github
@@ -16,8 +16,9 @@ Dark Times is a mod package for the game "Rimworld" based on the technologies an
 + Click the green "Code" button and select "Download ZIP" to download the mod package.
 + Extract the downloaded ZIP file to your "Rimworld/Mods" folder.
 + Make sure the mod is enabled in the "Mods" menu of "Rimworld".
-## German Technology
-### Dark Times - German Firearms
+## Currently in the mod package
+### German Technologies
+#### Dark Times - German Firearms
 
 The first research branch in this mod package is "Dark Times - German Firearms". These include various German firearms that are simulated in real-time, offering an authentic gameplay experience.
 
@@ -27,7 +28,7 @@ The first research branch in this mod package is "Dark Times - German Firearms".
 - Custom sounds
 - Custom graphics
 
-### Dark Times - German Explosives
+#### Dark Times - German Explosives
 
 Currently in development
 
@@ -56,20 +57,20 @@ If the mod isn't working as expected, please ensure that you have installed it c
 
 #### Can you add support for mod X/Y?
 
-I am open to considering requests for adding support for other mods. Please open a request on Github or leave a comment below with your suggestion.
+I'm open to considering requests for adding support for other mods. Please open a request on Github or leave a comment below with your suggestion.
 
-#### Hey thats nice work! Can i help you?
+#### Hey thats nice work! Can I help you?
 
-Thank you for your interest in my mod! I am always happy to receive feedback and suggestions. However, please note that i reserve the right to make decisions on the direction and priorities of development. If you would like to contribute to the project, please reach out to me with your ideas and i will see how we can work together.
+Thank you for your interest in my mod! I am always happy to receive feedback and suggestions. However, please note that I reserve the right to make decisions on the direction and priorities of development. If you would like to contribute to the project, please reach out to me with your ideas and I will see how we can work together.
 
 ## Acknowledgements
 
 I would like to express my gratitude to the following individuals and communities for their support and contributions to this project:
 
  - [Ludeon Studios](https://ludeon.com/blog/): For creating one of the best games i saw in my life for now.
- - [Annehilator](https://steamcommunity.com/id/annehilator): For providing ncie, handcrafted graphics and being a great tester.
+ - [Annehilator](https://steamcommunity.com/id/annehilator): For providing nice, handcrafted graphics and being a great tester.
 
-I would also like to thank the Rimworld modding community for providing a platform for creativity and innovation, and for helping me bring my ideas to life. Finally, i am grateful to the developers of Rimworld for creating such a fantastic game that continues to inspire us every day.
+I would also like to thank the Rimworld modding community for providing a platform for creativity and innovation, and for helping me bring my ideas to life. Finally, I'm grateful to the developers of Rimworld for creating such a fantastic game that continues to inspire us every day.
 
 
 ## License
