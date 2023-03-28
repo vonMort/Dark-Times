@@ -1,7 +1,7 @@
 
 # Dark Times
 
-Dark-Times is a mod package for the game "Rimworld" based on the technologies and weapons from World War II. The package includes a variety of weapons, clothing items, custom-created sounds, and graphics.
+Dark Times is a mod package for the game "Rimworld" based on the technologies and weapons from World War II. The package includes a variety of weapons, clothing items, custom-created sounds, and graphics.
 ## Installation
 
 #### Via Steam Workshop
