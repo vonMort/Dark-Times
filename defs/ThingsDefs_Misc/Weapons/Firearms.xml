@@ -685,7 +685,7 @@
 			<AccuracyShort>0.50</AccuracyShort>
 			<AccuracyMedium>0.70</AccuracyMedium>
 			<AccuracyLong>0.80</AccuracyLong>
-			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
 		</statBases>
 		<weaponTags>
 			<li>SimpleGun</li>
@@ -742,7 +742,7 @@
 		</tools>
 	</ThingDef>
 
-	<!--Advanced Guns-->
+	<!--Modern Guns-->
 	<ThingDef ParentName="BaseGermanWeaponRanged">
 		<defName>STG_44_Gun</defName>
 		<label>STG 44</label>
@@ -989,7 +989,7 @@
 			<AccuracyShort>0.80</AccuracyShort>
 			<AccuracyMedium>0.95</AccuracyMedium>
 			<AccuracyLong>0.70</AccuracyLong>
-			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
 		</statBases>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
