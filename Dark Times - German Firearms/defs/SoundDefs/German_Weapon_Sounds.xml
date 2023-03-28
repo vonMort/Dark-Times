@@ -147,6 +147,30 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef>
+		<defName>Gewehr_41_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Gewehr_41_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>32.56819</min>
+					<max>37.20858</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8807993</min>
+					<max>1.224319</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 	"<!--Modern Weapon Sounds-->
 	<SoundDef>
 		<defName>STG_44_shot</defName>
@@ -195,5 +219,52 @@
 			</li>
 		</subSounds>
 	</SoundDef>
-	
+
+	<SoundDef>
+		<defName>Gewehr_43_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/Gewehr_43_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>33.23798</min>
+					<max>37.27708</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.8601555</min>
+					<max>1.151192</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>FG_42_shot</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Things/FG_42_shot</clipPath>
+					</li>
+				</grains>
+				<volumeRange>
+					<min>30.98411</min>
+					<max>37.04285</max>
+				</volumeRange>
+				<pitchRange>
+					<min>0.9015349</min>
+					<max>1.162635</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
 </Defs>

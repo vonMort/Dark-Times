@@ -106,7 +106,7 @@
 			<speed>45</speed>
 		</projectile>
 	</ThingDef>
-	
+
 	<!--Advanced Guns Bullets-->
 	<ThingDef ParentName="BaseGermanBullet">
 		<defName>MP_40_Bullet</defName>
@@ -138,6 +138,21 @@
 		</projectile>
 	</ThingDef>
 
+	<ThingDef ParentName="BaseGermanBullet">
+		<defName>Gewehr_41_Bullet</defName>
+		<label>Gewehr 41 bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<stoppingPower>1.5</stoppingPower>
+			<speed>50</speed>
+		</projectile>
+	</ThingDef>
+	
 	<!--Modern Guns Bullets-->
 	<ThingDef ParentName="BaseGermanBullet">
 		<defName>STG_44_Bullet</defName>
@@ -166,6 +181,36 @@
 			<damageAmountBase>9</damageAmountBase>
 			<stoppingPower>0.9</stoppingPower>
 			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGermanBullet">
+		<defName>FG_42_Bullet</defName>
+		<label>FG 42 bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<stoppingPower>1.9</stoppingPower>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGermanBullet">
+		<defName>Gewehr_43_Bullet</defName>
+		<label>Gewehr 43 bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>11</damageAmountBase>
+			<stoppingPower>2.0</stoppingPower>
+			<speed>55</speed>
 		</projectile>
 	</ThingDef>
 
@@ -620,6 +665,81 @@
 		</tools>
 	</ThingDef>
 	
+	<ThingDef ParentName="BaseGermanWeaponRanged">
+		<defName>Gewehr_41_Gun</defName>
+		<label>Gewehr 41</label>
+		<description>The Gewehr 41 (German for rifle 41) is a semi-automatic rifle developed by Mauser during World War II. It was introduced in 1941 and produced until the end of the war. It was intended to replace the Karabiner 98k but due to production difficulties and reliability issues, it saw limited use.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Gewehr_41</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>4.8</Mass>
+			<AccuracyTouch>0.20</AccuracyTouch>
+			<AccuracyShort>0.50</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>SimpleGun</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>Ranged</li>
+			<li>RangedSniper</li>
+		</weaponClasses>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<WoodLog>5</WoodLog>
+			<Steel>200</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>MakeAdvancedGermanFirearms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Gewehr_41_Bullet</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>50.0</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+				<soundCast>Gewehr_41_shot</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>7</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
 	<!--Advanced Guns-->
 	<ThingDef ParentName="BaseGermanWeaponRanged">
 		<defName>STG_44_Gun</defName>
@@ -698,7 +818,7 @@
 	<ThingDef ParentName="BaseGermanWeaponRanged">
 		<defName>MG_42_Gun</defName>
 		<label>MG 42</label>
-		<description>TODO</description>
+		<description>The MG 42 is a German machine gun developed during World War II. It is widely regarded as one of the most significant and revolutionary firearms in history, due to its high rate of fire and reliability in combat. The MG 42 was used by the German army, and was one of the primary infantry weapons in German service during the later stages of the war. Its distinctive sound earned it the nickname "Hitler's buzzsaw." Despite being replaced by the MG 3 in the post-war period, the MG 42 remains a popular and iconic weapon today.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/MG_42</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -768,6 +888,152 @@
 					<li>Poke</li>
 				</capacities>
 				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGermanWeaponRanged">
+		<defName>FG_42_Gun</defName>
+		<label>FG 42</label>
+		<description>The FG 42 (abbreviation of Fallschirmjägergewehr 42, "paratrooper rifle 42") is a German selective-fire battle rifle developed during World War II. It was used primarily by German paratroopers.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/FG_42</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>20000</WorkToMake>
+			<Mass>4.8</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.60</AccuracyLong>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>AssaultRifle</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<costList>
+			<Steel>70</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>MakeModernGermanFirearms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>FG_42_Bullet</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>40.0</range>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<soundCast>FG_42_shot</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>15</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>^
+
+	<ThingDef ParentName="BaseGermanWeaponRanged">
+		<defName>Gewehr_43_Gun</defName>
+		<label>Gewehr 43</label>
+		<description>The Gewehr 43 is a German semi-automatic rifle developed during World War II. It served as a successor to the earlier Gewehr 41(W) and was used by German forces during the later years of the war. The Gewehr 43 was designed to be more reliable and efficient than its predecessor, and featured a detachable box magazine.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/Gewehr_43</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<Mass>4.1</Mass>
+			<AccuracyTouch>0.45</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.95</AccuracyMedium>
+			<AccuracyLong>0.70</AccuracyLong>
+			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>SemiAutomaticRifle</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedLight</li>
+		</weaponClasses>
+		<costList>
+			<Steel>60</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<recipeMaker>
+			<researchPrerequisite>MakeModernGermanFirearms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Gewehr_43_Bullet</defaultProjectile>
+				<warmupTime>1.0</warmupTime>
+				<range>35.0</range>
+				<soundCast>Gewehr_43_shot</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>15</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>5</power>
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
