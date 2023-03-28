@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Dark Times</name>
+    <author>vonMort</author>
+    <packageId>vonMort.DT.GerFire</packageId>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+    <description>Dark Times is a mod package for the game "Rimworld" based on the technologies and weapons from World War II. The package includes a variety of weapons, clothing items, custom-created sounds, and graphics.</description>
+</ModMetaData>
